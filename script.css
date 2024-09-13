@@ -1,0 +1,71 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(16, 24, 32);
+}
+#inputdiv{
+    width:100%;
+    height:20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#inputdiv input{
+    width:39%;
+    height:4vh;
+    margin-right:1%;
+    border:none;
+    border-radius: 5px;
+    font-size:20px;
+    color:rgb(0, 225, 255);
+    background-color: rgb(28, 34, 40);
+}
+#inputdiv button{
+    width:6vw;
+    height:4vh;
+    border:none;
+    color:rgb(89, 233, 218);
+    font-size:18px;
+    font-weight:700;
+    border-radius:5px;
+    background-color: rgb(28, 34, 40);
+
+
+}
+
+#todolist div{
+    height:20px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+}
+#todolist div button{
+    width:50px;
+    height:30px;
+    margin:10px;
+    font-size: 20px;
+    background-color: rgb(109, 200, 200);
+    border:none;
+    color:red;
+}
+#todolist div{
+    color:rgb(254, 231, 21);
+    align-items:center;
+}
+#todolist hr{
+    width:1000px;
+    background-color: whitesmoke;
+    height:1px;
+    opacity: .2;
+}
+#todolist div p input{
+    height:30px;
+    width:100px;
+    background-color:rgb(28, 34, 40) ;
+    font-size: 25px;
+    color:rgb(254, 231, 21);
+    border:none;
+    align-items: center;
+}
